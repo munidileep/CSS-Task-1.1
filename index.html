@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .con{
+        height: 132vh;
+        width: 100%;
+        background-image: url(beans.jpg);
+        display: flex;
+        justify-content: center;
+      }
+      .main{
+        position: absolute;
+        top: 20px;
+        background-color: rgb(227, 194, 143);
+        height: 125vh;
+        width: 45vw;
+        
+      }
+      .inner{
+        margin: auto;
+        width: 96%;
+        /* border: 5px solid; */
+        height: 110vh;
+      }
+      .inner h1{
+        text-align: center;
+        font-size: 50px;
+        /* font-family: 'Dancing Script'; */
+        font-family: 'Pacifico';
+        text-decoration: underline;
+      }
+      .inner p{
+        position: relative;
+        top: 7px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .inner hr{
+        border: 0;
+        height: 4px;
+        background-color: rgb(158, 64, 64);
+      }
+      .inner img{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 14px;
+        right: 25px;
+      }
+      #head{
+        position: relative;
+        top: 8px;
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Dancing Script';
+      }
+      .one{
+        position: relative;
+        top: 100px;
+        left: 40px;
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        list-style-type: none;
+        font-family: 'Playwrite Deutschland Grundschrift';
+      }
+      .two{
+        float: right;
+        position: relative;
+        top: 100px;
+        left: 130px;
+        width: 40%;
+        font-size: 20px;
+        list-style-type: none;
+        font-family: 'Playwrite Deutschland Grundschrift';
+      }
+      #spy{
+        position: relative;
+        top: 130px;
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Dancing Script';
+      }
+      #image{
+        position: relative;
+        top: 130px;
+      }
+      .three{
+        position: relative;
+        top: 200px;
+        left: 40px;
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        list-style-type: none;
+        font-family: 'Playwrite Deutschland Grundschrift';
+      }
+      .four{
+        float: right;
+        position: relative;
+        top: 200px;
+        left: 130px;
+        width: 40%;
+        font-size: 20px;
+        list-style-type: none;
+        font-family: 'Playwrite Deutschland Grundschrift';
+      }
+      footer{
+        position: relative;
+        top: 250px;
+        /* border: 3px solid; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      footer a{
+        text-wrap: nowrap;
+        color: black;
+        font-size: 20px;
+        position: relative;
+        right: 25px;
+        top: 50px;
+      }
+      footer #para{
+        position: relative;
+        right: 25px;
+        top: 60px;
+        text-wrap: nowrap;
+      }
+      #hru{
+        position: relative;
+        top: 230px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+        <nav class="main">
+            <div class="inner">
+                <h1>Smoking Cafe</h1>
+                <p>Since 1989</p><br>
+                <hr>
+                <h1 id="head">Coffie</h1>
+                <img src="tea.jpg" alt="error">
+                <ul class="one">
+                    <li>French Vanila</li>
+                    <li>Caramel Macchiato</li>
+                    <li>Pumpking Spice</li>
+                    <li>Hazelnut</li>
+                    <li>Mocha</li>
+                </ul>
+                <ul class="two">
+                    <li>130.00</li>
+                    <li>100.00</li>
+                    <li>115.00</li>
+                    <li>150.00</li>
+                    <li>125.00</li>
+                </ul>
+                <h1 id="spy">Desserts</h1>
+                <img id="image" src="desset logo.jpg" alt="error">
+                <ul class="three">
+                    <li>Donut</li>
+                    <li>Cherry Pie</li>
+                    <li>Cheese Cake</li>
+                    <li>Cinnamon Roll</li>
+                </ul>
+                <ul class="four">
+                    <li>210.00</li>
+                    <li>255.00</li>
+                    <li>240.00</li>
+                    <li>225.00</li>
+                </ul>
+                <footer>
+                    <a href="https://www.chaisuttabarindia.com/">Visit our site</a>
+                    <p id="para"><b>Contact:</b> 12345</p>
+                </footer>
+                <hr id="hru">
+            </div>
+        <nav>
+    </div>
+  </body>
+</html>
